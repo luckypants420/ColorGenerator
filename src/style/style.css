@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container div {
+    text-align: center;
+}
+
+.container img {
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+
+.color-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+
+}
+
+.mode-input {
+    width: 8em;
+}
